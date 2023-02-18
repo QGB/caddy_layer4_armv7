@@ -1,0 +1,19 @@
+{
+
+	"apps": {
+		"layer4": {
+			"servers": {
+				"example": {
+					"listen": [":5000"],
+					"routes": [
+						{
+							"handle": [
+								{"handler": "echo"}
+							]
+						}
+					]
+				}
+			}
+		}
+	}
+}
